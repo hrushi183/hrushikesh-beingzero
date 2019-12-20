@@ -8,7 +8,7 @@ app.get('/', (req, res) => res.sendFile(__dirname+'/frontend/html/homepage.html'
 //res.json
 app.get('/login', (req, res) => res.send('login'))
 
- var student={ "name":"being zero",
+ var student={ "name":"hrushi",
                 "college":"Vnrvjiet",
                 "regno":"123445"    
 };
