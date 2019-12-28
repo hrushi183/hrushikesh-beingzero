@@ -15,4 +15,6 @@ app.get('/login', (req, res) => res.send('login'))
 app.get('/register', (req, res) => res.send('register!'))
 
 app.get('/data',(req,res)=> res.json(student))
+
+app.get('/resume', (req, res) => res.sendFile(__dirname+'/frontend/html/resume.html'))
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
