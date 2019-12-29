@@ -7,7 +7,7 @@
  body {
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
-    color: #868e96;
+    color: #000000;
   }
   
   @media (min-width: 992px) {
@@ -170,9 +170,8 @@
   .bg-primary {
     background-color: #BD5D38 !important;
   }
-  
-  .text-primary {
-    color: #ffffff ;
+  .resume-text{
+    color: #BD5D38;
   }
   
 .rounded-circle {
@@ -208,16 +207,5 @@ user agent stylesheet
 i {
     font-style: italic;
 }
-.social-icons a {
-    display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
-    background-color: #495057;
-    color: #fff!important;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    margin-right: 1rem;
-}
+
 
